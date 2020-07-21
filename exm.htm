@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wrd website</title>
+    <style>
+        * {
+            background-color: black;
+            color: white;
+            font-family: cursive;
+        }
+
+        .heading {
+            font-size: 45px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+            text-align: center;
+            margin-top: 0px;
+        }
+
+        .container-1 img {
+            height: 55px;
+            width: 133px;
+            border: 3px solid grey;
+            border-radius: 1rem;
+        }
+
+        .container-1 {
+            display: flex;
+            /* border: 3px solid; */
+            border: 2px solid green;
+            border-radius: 21px;
+        }
+
+        .container-1 ul {
+            display: flex;
+        }
+
+        .unoderedlist-1 li {
+            font-size: 23px;
+            color: white;
+            padding-right: 68px;
+            text-decoration: none;
+            list-style: none;
+            color: lightgray;
+            font-family: cursive;
+
+        }
+
+        .container-2 {
+            font-size: 23px;
+            text-align: center;
+            padding-top: 12px;
+        }
+
+        .container-3 {
+            border: 2px solid white;
+            border-radius: 9px;
+            height: 519px;
+            display: flex;
+            margin: 40px;
+            /* box-shadow: 2px 3px gainsboro, 3px 4px gray; */
+            box-shadow: 5px 5px 16px rgb(200, 192, 192);
+        }
+
+        .subcontainer-1 {
+            height: 100px;
+            width: 250px;
+            /* border: 2px solid grey; */
+            /* padding: 76px; */
+            margin: 74px;
+            margin-top: 156px;
+            /* border: 3px solid white; */
+            
+  
+        }
+        
+        #box-1 p:hover{
+            /* border-top: 2px solid green; */
+            border: 3px solid green;
+            transition-property: border;
+            transition-duration: 4s;
+            transition-delay: 2s;
+            transition-timing-function: ease-in;
+            transform: rotate(360px);
+            transform: skew(180deg);
+            transform:translate(20px , 20px)
+        }
+        #box-1 p:hover{
+           
+            
+            transform: rotate(200px);
+            transform: skew(180deg);
+            transform:translate(20px , 20px)
+        }
+        .subcontainer-1:hover{
+            border: 2px solid green;
+            transition-property: border;
+            transition-duration: 4s;
+            transition-delay: 2s;
+            transition-timing-function: ease-in;
+            
+
+        }
+        .container-1 a{
+            text-decoration: none;
+        }
+        .container-1 ul a li:hover{
+            color: white;
+            font-size: 23px;
+        }
+        
+
+        
+    </style>
+</head>
+
+<body>
+    <h1 class="heading">
+        welcome to wrd
+    </h1>
+
+    <div class="container-1">
+        <img src="img-1.png" alt="logo">
+        <ul class="unoderedlist-1">
+            <a href="/home"><li class="list">home</li></a>
+            <a href="/about"><li class="list">about</li></a>
+            <a href="/calculator"><li class="list">calculator</li></a>
+            <a href="/browser"><li class="list">browser</li></a>
+            <a href="contact.htm"><li class="list">contact</li href="">
+            <a href="#"><li class="list">services</li></a>
+            <a href="#"><li class="list">documentation</li></a>
+        </ul>
+    </div>
+    <div class="container-2">put your cursor on these boxes</div>
+    <div class="container-3">
+        <div class="subcontainer-1" id="box-1">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam dolorum architecto exercitationem odit ea,
+                natus, assumenda accusantium corrupti placeat dignissimos doloribus ut eum?</p>
+        </div>
+        <div class="subcontainer-1" id="box-1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum deserunt cumque quaerat qui nostrum quae
+                ipsam, repellat dolorem autem officiis blanditiis itaque aliquid.</p>
+        </div>
+        <div class="subcontainer-1" id="box-1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt iste voluptatum architecto
+                delectus quod expedita explicabo eligendi, impedit dolor assumenda soluta fugit.</p>
+        </div>
+        <hr>
+    </div>
+
+</body>
+
+</html>

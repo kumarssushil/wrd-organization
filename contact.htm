@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wrd contact form</title>
+    <style>
+        *{
+            background-color: black;
+            color: white;
+            font-size: 23px;
+            font-family: cursive;
+            color: gray;
+        }
+        .heading{
+            font-size: 34px;
+            font-family: cursive;
+            text-align: center;
+            color: cornsilk;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            border: 2px solid grey;
+            border-radius: 12px;
+            justify-content: center;
+            align-items: center;
+            height: 670px;
+        }
+        .txt {
+            padding-top: 3px;
+    /* padding-bottom: 23px; */
+    margin-bottom: 35px;
+    width: 611px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 19px;
+    outline: none;
+    font-size: 26px;
+    font-family: cursive;
+    color: white;
+}
+    .gender{
+        font-size: 23px;
+        font-family: cursive;
+    }
+    .rule{
+        margin-top: 50px;
+    }
+        
+    </style>
+</head>
+<body>
+    <h2 class="heading">contact us by filling this form </h2>
+    <hr>
+    <form action="post">
+        <div class="container">
+            <input type="text" name="myname" id="name" class="txt" placeholder="enter your name">
+            <input type="number" name="mynumber" id="number" value="contact no."class="txt" placeholder="enter your contact no.">
+            <input type="email" id="email"class="txt" placeholder="enter your email ID">
+            <input type="address" id="address"class="txt" placeholder="enter your address">
+
+            gender-- male: <input type="radio" name="mygender" class="gender">female:<input type="radio" name="mygender">other: <input type="radio" name="mygender"class="gender">
+            bussnesman: <input type="checkbox">
+            programmer: <input type="checkbox">
+            data scientist: <input type="checkbox">
+        </div>
+
+    </form>
+    <hr class="rule">
+</body>
+</html>
